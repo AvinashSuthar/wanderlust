@@ -33,9 +33,9 @@ async function main() {
     // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
 }
 main().then(() => console.log("connected")).catch(err => console.log(err))
-// app.get("/", (req, res) => {
-//     res.send("done working");
-// })
+app.get("/", (req, res) => {
+    res.redirect("/listing");
+})
 
 const store = MongoStore.create({
     mongoUrl: db,
