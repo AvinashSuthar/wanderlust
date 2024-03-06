@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "16.13.0"
+    "node": "20.11.1"
   },
   "name": "majorprojectairbnb",
   "version": "1.0.0",
@@ -23,7 +23,7 @@
     "express-session": "^1.18.0",
     "joi": "^17.12.2",
     "method-override": "^3.0.0",
-    "mongoose": "^8.1.1",
+    "mongoose": "^8.2.1",
     "multer": "^1.4.5-lts.1",
     "multer-storage-cloudinary": "^4.0.0",
     "passport": "^0.7.0",
