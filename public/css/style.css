@@ -1,0 +1,123 @@
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass {
+    color: rgb(241, 29, 29);
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: #f1f1f1;
+    color: #4b4c4d;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+
+
+
+/* card */
+.allcards a{
+    text-decoration: none !important;
+}
+.card{
+padding:0 !important;
+ margin-bottom: 20px;
+ border-radius: 10px !important;
+ /* border: none !important; */
+ background-color: rgb(253, 253, 253) !important;
+ height: 400px !important;
+    transition: .5s;
+}
+
+
+.card img{
+    width:auto;
+    height: 250px !important;
+    border-radius: 10px;
+}
+.card:hover{
+    opacity: .6;
+
+}
+
+
+
+/* show */
+.image img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cusbtn{
+    background-color: rgb(78, 78, 236) !important;
+    color: white !important;
+    line-height: 20px !important;
+    border-radius: 10px !important;
+    /* padding-left: 15px !important;
+    padding-right: 15px !important; */
+    padding-bottom: 13px !important;
+    padding-top: 10px !important;
+    margin-right: 30px !important;
+}

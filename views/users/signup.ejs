@@ -1,0 +1,26 @@
+<% layout('/layouts/boilerplate') -%>
+<body>
+  <h3 class="mt-4 text-center" >Crate New Account on WanderLust</h3>
+  <div class="col-8 offset-2">
+      <form method="post" action="/signup"  class="needs-validation" novalidate>
+          <div class="form-group">
+              <label for="title">Username</label>
+              <input id="title" class="form-control"  type="text" name="username" placeholder="Enter Username" required>
+          </div>
+          <div class="form-group">
+              <label for="description">Password </label>
+              <input id="description"  type="password" class="form-control" name="password"
+                  placeholder="Enter Password" required>
+          </div>
+          <div class="form-group">
+              <label for="price">Email Id </label>
+              <input id="price"  type="email" class="form-control" name="email"
+                  placeholder="Enter Email" required>
+          </div>
+          <div class="d-grid  col-6 mx-auto  mb-4">
+              <button type="submit" class=" btn btn-primary">Sign Up</button>
+          </div>
+      </form>
+  </div>
+  
+</body>

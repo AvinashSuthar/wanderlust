@@ -1,0 +1,30 @@
+<% layout('/layouts/boilerplate') -%>
+ 
+
+    <body>
+        
+        <!-- <h3 class=""></h3> -->
+
+        <div class="allcards mt-3 row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+            <% for (const Listing of allListing) { %>
+                <a href="/listing/<%= Listing._id  %>"> 
+
+                
+                <div class="card col">
+                    <img src="<%= Listing.image.url  %>" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <%= Listing.title %>
+                        </h5>
+                      
+                        <p class="price">Price : &#8377; <%= Listing.price  %>/night</p>
+
+                    </div>
+                    <!-- <a href="/listing/<%= Listing._id  %>" class="btn btn-primary">Show</a> -->
+                </div>
+
+            </a> 
+                <% } %>
+              
+        </div>
+    </body>
