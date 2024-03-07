@@ -150,6 +150,14 @@ padding:0 !important;
         margin-left: -70% !important;
         /* margin-right: 50% !important; */
     }
+    .image{
+        width: 100%;
+
+    }
+    .image img{
+        width: 100%;
+        height: auto;
+    }
   }
 
 
