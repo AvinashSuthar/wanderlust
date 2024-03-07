@@ -1,11 +1,15 @@
 .navbar {
-    height: 5rem;
+    height: auto;
     background-color: white;
+    z-index: 2000;
+    width: 100vw !important;
+    /* position: fixed; */
 }
 
 .fa-compass {
     color: rgb(241, 29, 29);
     font-size: 2rem;
+    margin: 10px;
 }
 
 .nav-link {
@@ -121,3 +125,32 @@ padding:0 !important;
     padding-top: 10px !important;
     margin-right: 30px !important;
 }
+
+@media only screen and (max-width: 600px) {
+    .infodiv{
+        margin-top: 40px;
+        display: flex;
+        /* background-color: blue; */
+        flex-direction: column;
+        width: 90% !important;
+    }
+    .information{
+        display: flex;
+        margin-left: -50%;
+        /* margin-left: auto; */
+    }
+    .review{
+        margin-left: -30%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 155%;
+    }
+    .reviewcontent{
+        margin-left: -70% !important;
+        /* margin-right: 50% !important; */
+    }
+  }
+
+
+  
